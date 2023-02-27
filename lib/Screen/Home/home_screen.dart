@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                 margin: const EdgeInsets.all(10),
                 child: Row(
                   children: const [
-                    Text("عدد القطع ",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold)),
+                    Text("عدد القطع",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold)),
                   ],
                 ),
               ),
