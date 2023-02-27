@@ -17,6 +17,8 @@ dependencies:
   firebase_core: ^2.7.0
   cloud_firestore: ^4.4.3
   firebase_auth: ^4.2.9
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.2.3
 
 
 dev_dependencies:
@@ -39,3 +41,8 @@ flutter:
         - asset: assets/fonts/Saudagar.otf
         - asset: assets/fonts/Saudagar.woff
           weight: 600
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/cairo/Cairo-Bold.ttf
+          weight: 700
