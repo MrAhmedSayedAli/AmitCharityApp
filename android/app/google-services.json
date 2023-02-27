@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281392570293",
+    "project_id": "amit-flutter-apps",
+    "storage_bucket": "amit-flutter-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281392570293:android:be8c2b2eafdcc68cd503fc",
+        "android_client_info": {
+          "package_name": "com.mrahmedsayedali.amitcharity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281392570293-okgsln6hu0gm88u2u3m3elcu26djr6th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAImKz8qhNf9dcF7OgrJZy7AD7gYXPcROo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281392570293-okgsln6hu0gm88u2u3m3elcu26djr6th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
