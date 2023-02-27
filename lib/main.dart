@@ -2,9 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'Constants/constants.dart';
 
-import 'Screen/Home/home_screen.dart';
+import 'package:amitcharity/screen/splash/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
         builder: (context , child) {
           return const MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: HomeScreen(),
+            home: SplashScreen(),
           );
         }
     );
