@@ -7,6 +7,10 @@ import 'package:amitcharity/constants/constants.dart';
 
 import 'package:amitcharity/components/main_button.dart';
 
+import 'package:amitcharity/components/bottom_navigation_bar.dart';
+
+import 'package:amitcharity/screen/donation/donation_screen.dart';
+
 
 final List<String> ImagesList = [
   'https://cdn.hourdetroit.com/wp-content/uploads/sites/20/2021/11/clothing-donations.jpg',
@@ -21,6 +25,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: const AppBottomNavigationBar(navIndex: 1),
       appBar: AppBar(
         elevation: 0,
         backgroundColor: AppColors.primaryBackground,
@@ -58,10 +63,17 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             SizedBox(height: 10.sp),
-            MainButton(onPressed: () {  }, text: 'تبرع بالملابس', height: 60, width: MediaQuery.of(context).size.width/1.4,)
+            MainButton(
+              onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => const DonationScreen()));
+            },
+              text: 'تبرع بالملابس',
+              height: 60, width: MediaQuery.of(context).size.width/1.4,),
           ],
         ),
       ),
     );
   }
 }
+
+
